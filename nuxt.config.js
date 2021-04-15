@@ -48,7 +48,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'https://lotus-nuxtjs-deploy.herokuapp.com/api',
   },
 
   auth: {
