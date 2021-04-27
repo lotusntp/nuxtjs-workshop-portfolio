@@ -34,7 +34,7 @@
         <nuxt-link to="/about" class="navbar-item"> About </nuxt-link>
       </div>
 
-      <div class="navbar-end">
+      <!-- <div class="navbar-end">
         <div class="navbar-item">
           <div v-if="loggedIn" class="buttons">
             <button @click="logout" class="button is-danger">
@@ -48,7 +48,7 @@
             </nuxt-link>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </nav>
 </template>

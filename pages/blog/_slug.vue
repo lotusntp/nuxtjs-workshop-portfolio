@@ -20,7 +20,7 @@ export default {
       title: this.title,
     }
   },
-  middleware: 'auth',
+  // middleware: 'auth',
   async asyncData({ $content, params }) {
     const post = await $content('blog', params.slug).fetch()
     // สร้างตัวแปรแล้วต้อง return กลับไป

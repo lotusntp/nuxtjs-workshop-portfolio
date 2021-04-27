@@ -33,7 +33,7 @@ export default {
       title: this.title,
     }
   },
-  middleware: 'auth',
+  // middleware: 'auth',
   async asyncData({ $axios }) {
     const baseURL = 'https://api.github.com'
     // const user = await $axios.$get(`${baseURL}/users/lotusntp`)

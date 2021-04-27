@@ -7,7 +7,7 @@ export default {
   target: 'server',
   head: {
     titleTemplate: 'Nuxtjs Workshop | %s',
-    title: 'process.env.npm_package_name' || '',
+    title: 'nuxtjs-portfolio' || '',
     htmlAttrs: {
       lang: 'en',
     },

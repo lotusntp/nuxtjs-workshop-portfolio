@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="title">About</h1>
 
-    <p>Nuxtjs</p>
+    <p>Web Portfolio พัฒนาด้วย Nuxt.js</p>
   </div>
 </template>
 
